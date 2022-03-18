@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.7;
+    color: #333;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.content{
+   margin: 5rem;
+   box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.5);
+   background-color: rgb(245, 245, 245);
+   border-radius: 3px;
+   
+}
+
+.head{
+    background-color: rgb(230, 228, 228);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+.head-one{
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+.head-four{
+    font-size: 2rem;
+    font-family: 100;
+}
+
+.input-search{
+    width: 40rem;
+    height: 4 rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    outline: none;
+    color: #777;
+    font-size: 1.7rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 5px;
+}
+
+.head-two{
+    font-size: 3rem;
+    padding: 2rem 0 0 3rem;
+}
+
+.list{
+    list-style: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0 2rem;
+}
+
+li{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.space:hover{
+    background-color: purple;
+}
+
+.space{
+    background-color:#ccc;
+    height: 5rem;
+    width: 5px;
+    margin-right: 2rem;
+    transition: all .2s;
+}
+
+.delete{
+    cursor: pointer;
+    margin-left: auto;
+    padding: .5rem;
+    color: #fff;
+    background-color: purple;
+    font-weight: 100;
+    border-radius: 3px;
+    transition: all .2s;
+}
+
+.delete:hover{
+    background-color: #000;
+}
+
+#form{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.input-book{
+    width: 40rem;
+    height: 4rem;
+    padding: 1rem;
+    font-size: 2rem;
+    border: 1px solid #ccc ;
+    outline: none;
+    margin-bottom: 3rem;
+    border-radius: 3px;
+    color: #777;
+}
+
+.btn{
+    color: #fff;
+    background-color: purple;
+    font-weight: 100;
+    border-radius: 3px;
+    transition: all .2s;
+    height: 4rem;
+    padding: 1rem 4rem;
+    font-size: 2rem;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #000;
+}
+
+#hide{
+    width: 3rem;
+    height: 2rem;
+}
+
+.hide--books{
+    font-size: 2rem;
+}
+
+
+/* &__link::before{
+    content: "";
+    background-color: var(--color-primary-tertiary);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    transform: scaleY(0);
+    transition: transform .5s,
+                width .4s cubic-bezier(1,0,0,1) .1s;
+}
+
+&__link:hover::before{
+    width: 100%;
+    transform: scaleY(1);
+    
+    
+} */
